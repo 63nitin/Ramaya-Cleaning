@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
-import Link from 'next/link';
+import Link from 'next/link'; // Import Link for internal navigation
 import { Inter } from 'next/font/google';
 
 const inter = Inter({ subsets: ['latin'], display: 'swap' });
@@ -63,10 +63,14 @@ const Navbar = () => {
           {/* Logo */}
           <div className="flex-shrink-0">
             <Link href="/" onClick={closeMobileMenu}>
-              <img
+              {/* Using next/image for optimized image handling */}
+              {/* Estimated width and height based on h-16 class and expected aspect ratio */}
+              <Image
                 src="/logo.png" // Make sure to update this path
                 alt="ramaya-cleaning-logo"
-                className="line h-16 scale-150 hover:scale-200 transition all ease-in-out duration-300"
+                width={100} // Estimate width based on aspect ratio and h-16 (64px height) with some scaling
+                height={64} // h-16 corresponds to 64px
+                className="line scale-150 hover:scale-200 transition all ease-in-out duration-300" // Keep original styling classes
               />
             </Link>
           </div>

@@ -34,7 +34,7 @@ const ServicesPage = () => {
                 </li>
                 <li className="flex items-start text-lg text-gray-700">
                   <FaCheckCircle className="text-blue-500 w-6 h-6 mr-3 mt-1 flex-shrink-0" />
-                  <span>Deep Cleaning that revitalizes every room.</span>
+                  <span>Deep Cleaning that revitalizes every room&apos;.</span>
                 </li>
                 <li className="flex items-start text-lg text-gray-700">
                   <FaCheckCircle className="text-blue-500 w-6 h-6 mr-3 mt-1 flex-shrink-0" />
