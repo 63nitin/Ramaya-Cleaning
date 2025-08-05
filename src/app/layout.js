@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <Head>
         <link
-          href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&amp;family=Roboto:wght@400;500&amp;display=swap"
           rel="stylesheet"
         />
       </Head>

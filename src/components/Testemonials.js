@@ -15,6 +15,10 @@ const Testimonials = () => {
       quote: 'My old sofa looks brand new after their upholstery cleaning service. I am amazed by the results.',
       name: 'Emily R.',
     },
+    {
+      quote: 'Ramaya Cleaning did an amazing job!',
+      name: 'Satisfied Customer',
+    },
   ];
 
   return (

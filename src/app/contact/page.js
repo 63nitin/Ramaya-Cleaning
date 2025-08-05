@@ -46,6 +46,9 @@ const ContactPage = () => {
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             We'd love to hear from you. Fill out the form below or use our contact details to reach out directly.
           </p>
+          <p>
+            Feel free to reach out &mdash; we&apos;re here to help!
+          </p>
         </header>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">

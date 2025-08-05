@@ -29,6 +29,9 @@ const AboutUsPage = () => {
               <p className="text-lg text-gray-700">
                 Our journey began with a simple idea: to redefine what it means to be a cleaning service. We saw a need for a company that combined exceptional quality with genuine care and trustworthiness. From our humble beginnings, we've grown into a team of dedicated professionals who are passionate about bringing a sparkle to every corner.
               </p>
+              <p>
+                We&apos;re passionate about cleaning and delivering the best results for our clients.
+              </p>
             </div>
             <div className="order-1 md:order-2">
               <Image
