@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
+  --background: #F5F5F5;
   --foreground: #171717;
 }
 
@@ -14,8 +14,8 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #ffffff4f;
+    --foreground: #333333;
   }
 }
 
@@ -23,4 +23,54 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.card {
+   background: #e0e5ec1f;
+    backdrop-filter: blur(10px);
+}
+
+.button {
+    transition: all ease 0.5s;
+}
+
+.button:hover {
+  box-shadow: 5px 5px 0px #000;
+}
+
+button:active{
+    transform: scale(0.9);
+}
+
+.line::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 3px;
+    background-color: #5ABEFF;
+    transition: all ease 1s;
+}
+
+.line:hover::after{
+   width: 100%;
+}
+
+
+.letter{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 1100;
+    
+    letter-spacing: 0.1em;
+    -webkit-text-stroke: 4px #4baef0fe;
+    color:transparent;
+}
+
+.box{
+
+    background-color: #5caadfe9;
+    box-shadow: 20px 20px 60px #4baef0fe,
+                inset -20px -20px 60px #5ABEFF58
+;
 }
