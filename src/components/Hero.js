@@ -23,7 +23,7 @@ const HeroSection = () => {
         </h1>
         <p className=" text-lg sm:text-xl md:text-2xl text-[#5caadffe] font-mono mb-8 px-4 sm:px-0 drop-shadow-md">
           Empowering your vision with cutting-edge technology solutions and unparalleled expertise.
-          Let's build the future, together.
+          Let&apos;s build the future, together.
         </p>
         <Link
           href="/get-started"

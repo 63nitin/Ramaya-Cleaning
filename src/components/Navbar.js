@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link'; // Import Link for internal navigation
+import Image from 'next/image';
 import { Inter } from 'next/font/google';
 
 const inter = Inter({ subsets: ['latin'], display: 'swap' });

@@ -44,10 +44,10 @@ const ContactPage = () => {
             Get In Touch
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            We'd love to hear from you. Fill out the form below or use our contact details to reach out directly.
+            We&apos;d love to hear from you. Fill out the form below or use our contact details to reach out directly.
           </p>
           <p>
-            Feel free to reach out &mdash; we&apos;re here to help!
+            Feel free to reach out &mdash; we&amp;apos;re here to help!
           </p>
         </header>
 
